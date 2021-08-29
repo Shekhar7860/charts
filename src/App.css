@@ -1,0 +1,101 @@
+.App {
+  text-align: center;
+}
+#funnel-chart_Series_0_Point_0 {
+ display : none !important;
+}
+#funnel-chart_datalabel_Series_0_text_0{
+  display : none;
+}
+#funnel-chart_datalabel_Series_0_connector_0{
+  display : none;
+}
+#funnel-chart_Series_0_Point_4{
+  fill : #3498db
+}
+#funnel-chart_Series_0_Point_3{
+  fill : #4834d4
+}
+#funnel-chart_Series_0_Point_2{
+  fill : #30336b
+}
+#funnel-chart_Series_0_Point_1{
+  fill : #130f40
+}
+#charts2_Series_0_Point_4{
+  fill : #3498db
+}
+#charts2_Series_0_Point_5{
+  fill : #3498db
+}
+#charts2_Series_0_Point_1{
+  fill : #3498db
+}
+#charts2_Series_0_Point_2{
+  fill : #3498db
+}
+#charts2_Series_0_Point_3{
+  fill : #3498db
+}
+#charts2_Series_0_Point_0{
+  fill : #3498db
+}
+#charts2_Series_1_Point_3{
+  fill : #273c75
+}
+#charts2_Series_1_Point_1{
+  fill : #273c75
+}
+#charts2_Series_1_Point_2{
+  fill : #273c75
+}
+#charts2_chart_legend_shape_0{
+  fill : #3498db
+}
+#charts2_chart_legend_shape_1{
+  fill : #273c75
+}
+#charts2_Series_1_Point_4{
+  fill : #273c75
+}
+#charts2_Series_1_Point_5{
+  fill : #273c75
+}
+#charts2_Series_1_Point_0{
+  fill : #273c75
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
