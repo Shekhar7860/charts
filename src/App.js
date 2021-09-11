@@ -9,6 +9,7 @@ import ReactSpeedometer from "react-d3-speedometer"
 import Pie from './Pie'
 import Chart from "react-google-charts";
 import StackedBar from './StackedBar';
+import Segments from './Segments'
 import './App.css'
 class App extends React.Component {
     constructor() {
@@ -20,6 +21,7 @@ class App extends React.Component {
     render() {
 
         return <>
+        <Segments/>
          <div style={{flexDirection: 'row',
  display : 'flex', justifyContent : 'center'}}>
            <div style={{width : '38%'}}>
