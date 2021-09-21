@@ -19,6 +19,7 @@ import {
     } from "react-router-dom";
 import Home from './Home';
 import Login from './Login';
+import Productivity from './Productivity';
 class App extends React.Component {
     constructor() {
         super(...arguments);
@@ -36,6 +37,9 @@ class App extends React.Component {
           </Route>
           <Route path="/login">
             <Login />
+          </Route>
+          <Route path="/productivity">
+            <Productivity />
           </Route>
         </Switch>
          </Router>
