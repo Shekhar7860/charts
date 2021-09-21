@@ -13,7 +13,7 @@ class Funnel extends SampleBase {
         return (<div className='control-pane'>
         <div className='control-section row'>
           <div className='col-lg-9'>
-            <AccumulationChartComponent id='funnel-chart' ref={funnel => this.funnel = funnel} title='Sum Of Amount (Thousands) : $47k' load={this.load.bind(this)} tooltip={{ enable: true, format: '${point.x} : <b>${point.y}</b>' }} resized={this.onChartResized.bind(this)} loaded={this.onChartLoad.bind(this)}>
+            <AccumulationChartComponent id={this.props.funnelId} ref={funnel => this.funnel = funnel} title='Sum Of Amount (Thousands) : $47k' load={this.load.bind(this)} tooltip={{ enable: true, format: '${point.x} : <b>${point.y}</b>' }} resized={this.onChartResized.bind(this)} loaded={this.onChartLoad.bind(this)}>
               <Inject services={[FunnelSeries, AccumulationTooltip, AccumulationDataLabel]}/>
               <AccumulationSeriesCollectionDirective>
                 <AccumulationSeriesDirective dataSource={data1} xName='x' yName='y' type='Funnel' width='60%' height='80%' neckWidth='25%' neckHeight='5%' neckHeight='18%' explode={false} dataLabel={{
@@ -47,7 +47,7 @@ class Funnel extends SampleBase {
     }
     ;
     onChartLoad(args) {
-        document.getElementById('funnel-chart').setAttribute('title', '');
+        document.getElementById(this.props.funnelId).setAttribute('title', '');
     }
     ;
     load(args) {
@@ -61,7 +61,7 @@ class Funnel extends SampleBase {
     }
     ;
     onChartResized(args) {
-        let bounds = document.getElementById('funnel-chart').getBoundingClientRect();
+        let bounds = document.getElementById(this.props.funnelId).getBoundingClientRect();
         if (bounds.width < bounds.height) {
             args.accumulation.series[0].width = '80%';
             args.accumulation.series[0].height = '70%';

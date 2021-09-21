@@ -1,6 +1,20 @@
 .App {
   text-align: center;
 }
+.align-row {
+  flex-direction : row;
+ display : flex;
+  justify-content : center
+}
+.firstWidth {
+  width : 35%
+}
+.secondWidth {
+  width : 25%
+}
+.thirdWidth {
+  width : 25%
+}
 #funnel-chart_Series_0_Point_0 {
  display : none !important;
 }
@@ -86,10 +100,162 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
+#funnel-chart2_Series_0_Point_0 {
+  display : none !important;
+ }
+ #funnel-chart2_datalabel_Series_0_text_0{
+   display : none;
+ }
+ #funnel-chart2_datalabel_Series_0_connector_0{
+   display : none;
+ }
+ #funnel-chart2_Series_0_Point_4{
+   fill : #3498db
+ }
+ #funnel-chart2_Series_0_Point_3{
+   fill : #4834d4
+ }
+ #funnel-chart2_Series_0_Point_2{
+   fill : #30336b
+ }
+ #funnel-chart2_Series_0_Point_1{
+   fill : #130f40
+ }
 .App-link {
   color: #61dafb;
 }
+#funnel-chart3_Series_0_Point_0 {
+  display : none !important;
+ }
+ #funnel-chart3_datalabel_Series_0_text_0{
+   display : none;
+ }
+ #funnel-chart3_datalabel_Series_0_connector_0{
+   display : none;
+ }
+ #funnel-chart3_Series_0_Point_4{
+   fill : #3498db
+ }
+ #funnel-chart3_Series_0_Point_3{
+   fill : #4834d4
+ }
+ #funnel-chart3_Series_0_Point_2{
+   fill : #30336b
+ }
+ #funnel-chart3_Series_0_Point_1{
+   fill : #130f40
+ }
+ /* fourth funnel */
+ #funnel-chart4_Series_0_Point_0 {
+  display : none !important;
+ }
+ #funnel-chart4_datalabel_Series_0_text_0{
+   display : none;
+ }
+ #funnel-chart4_datalabel_Series_0_connector_0{
+   display : none;
+ }
+ #funnel-chart4_Series_0_Point_4{
+   fill : #3498db
+ }
+ #funnel-chart4_Series_0_Point_3{
+   fill : #4834d4
+ }
+ #funnel-chart4_Series_0_Point_2{
+   fill : #30336b
+ }
+ #funnel-chart4_Series_0_Point_1{
+   fill : #130f40
+ }
+
+ /* fifth funnel */
+ #funnel-chart5_Series_0_Point_0 {
+  display : none !important;
+ }
+ #funnel-chart5_datalabel_Series_0_text_0{
+   display : none;
+ }
+ #funnel-chart5_datalabel_Series_0_connector_0{
+   display : none;
+ }
+ #funnel-chart5_Series_0_Point_4{
+   fill : #3498db
+ }
+ #funnel-chart5_Series_0_Point_3{
+   fill : #4834d4
+ }
+ #funnel-chart5_Series_0_Point_2{
+   fill : #30336b
+ }
+ #funnel-chart5_Series_0_Point_1{
+   fill : #130f40
+ }
+  /* sixth funnel */
+  #funnel-chart6_Series_0_Point_0 {
+    display : none !important;
+   }
+   #funnel-chart6_datalabel_Series_0_text_0{
+     display : none;
+   }
+   #funnel-chart6_datalabel_Series_0_connector_0{
+     display : none;
+   }
+   #funnel-chart6_Series_0_Point_4{
+     fill : #3498db
+   }
+   #funnel-chart6_Series_0_Point_3{
+     fill : #4834d4
+   }
+   #funnel-chart6_Series_0_Point_2{
+     fill : #30336b
+   }
+   #funnel-chart6_Series_0_Point_1{
+     fill : #130f40
+   }
+     /* seventh funnel */
+  #funnel-chart7_Series_0_Point_0 {
+    display : none !important;
+   }
+   #funnel-chart7_datalabel_Series_0_text_0{
+     display : none;
+   }
+   #funnel-chart7_datalabel_Series_0_connector_0{
+     display : none;
+   }
+   #funnel-chart7_Series_0_Point_4{
+     fill : #3498db
+   }
+   #funnel-chart7_Series_0_Point_3{
+     fill : #4834d4
+   }
+   #funnel-chart7_Series_0_Point_2{
+     fill : #30336b
+   }
+   #funnel-chart7_Series_0_Point_1{
+     fill : #130f40
+   }
+        /* eigth funnel */
+  #funnel-chart8_Series_0_Point_0 {
+    display : none !important;
+   }
+   #funnel-chart8_datalabel_Series_0_text_0{
+     display : none;
+   }
+   #funnel-chart8_datalabel_Series_0_connector_0{
+     display : none;
+   }
+   #funnel-chart8_Series_0_Point_4{
+     fill : #3498db
+   }
+   #funnel-chart8_Series_0_Point_3{
+     fill : #4834d4
+   }
+   #funnel-chart8_Series_0_Point_2{
+     fill : #30336b
+   }
+   #funnel-chart8_Series_0_Point_1{
+     fill : #130f40
+   }
 
 @keyframes App-logo-spin {
   from {
