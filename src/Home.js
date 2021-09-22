@@ -14,6 +14,7 @@ import './App.css';
 import BarGraph from './BarGraph';
 import { useHistory } from "react-router-dom";
 const Home = () => {
+
     const history = useHistory();
 
         return <>
@@ -23,7 +24,7 @@ const Home = () => {
            <div style={{width : '20%'}}>
           <div style={{alignSelf : 'center', width : '90%',display : 'flex', justifyContent : 'center'}}>
           <button style={{width : 150, height : 30, backgroundColor : '#ff6348', borderColor : '#ff6348', marginTop : 10, color : 'white', marginHorizontal : 20}} onClick={() => {
-              history.push('/login')
+              history.push('/login') 
           }}>Login</button>
           </div>
           <Funnel funnelId={'funnel-chart3'}/>
