@@ -256,6 +256,28 @@
    #funnel-chart8_Series_0_Point_1{
      fill : #130f40
    }
+   /* ninth channel */
+   #funnel-chart9_Series_0_Point_0 {
+    display : none !important;
+   }
+   #funnel-chart9_datalabel_Series_0_text_0{
+     display : none;
+   }
+   #funnel-chart9_datalabel_Series_0_connector_0{
+     display : none;
+   }
+   #funnel-chart9_Series_0_Point_4{
+     fill : #3498db
+   }
+   #funnel-chart9_Series_0_Point_3{
+     fill : #4834d4
+   }
+   #funnel-chart9_Series_0_Point_2{
+     fill : #30336b
+   }
+   #funnel-chart9_Series_0_Point_1{
+     fill : #130f40
+   }
 
 @keyframes App-logo-spin {
   from {

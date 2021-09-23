@@ -20,7 +20,8 @@ import {
 import Home from './Home';
 import Login from './Login';
 import Productivity from './Productivity';
-import Report from './Report'
+import Report from './Report';
+import Detail from './Detail';
 class App extends React.Component {
     constructor() {
         super(...arguments);
@@ -44,6 +45,9 @@ class App extends React.Component {
           </Route>
           <Route path="/tat-report">
             <Report/>
+          </Route>
+          <Route path="/detail">
+            <Detail/>
           </Route>
         </Switch>
          </Router>
