@@ -20,7 +20,7 @@ const Home = () => {
         return <>
         <Segments/>
          <div style={{flexDirection: 'row',
- display : 'flex', justifyContent : 'center', height : 280}}>
+ display : 'flex', justifyContent : 'center'}}>
            <div style={{width : '20%'}}>
           <div style={{alignSelf : 'center', width : '90%',display : 'flex', justifyContent : 'center'}}>
           <button style={{width : 150, height : 30, backgroundColor : '#ff6348', borderColor : '#ff6348', marginTop : 10, color : 'white', marginHorizontal : 20}} onClick={() => {
@@ -46,19 +46,19 @@ const Home = () => {
  display : 'flex', justifyContent : 'center'}}>
            <div style={{width : '20%'}}>
           <div style={{alignSelf : 'center', width : '90%',display : 'flex', justifyContent : 'center'}}>
-          <button style={{width : 150, height : 30, backgroundColor : '#ff6348', borderColor : '#ff6348', marginTop : 20, color : 'white', marginHorizontal : 20}}>Login</button>
+          <button style={{width : 150, height : 30, backgroundColor : '#ff6348', borderColor : '#ff6348',  color : 'white', marginHorizontal : 20}}>Login</button>
           </div>
           <Funnel funnelId={'funnel-chart5'}/>
     </div>
     <div style={{width : '20%'}}>
     <div style={{alignSelf : 'center', width : '90%',display : 'flex', justifyContent : 'center'}}>
-          <button style={{width : 150, height : 30, backgroundColor : '#ff6348', borderColor : '#ff6348', marginTop : 20, color : 'white', marginHorizontal : 20}}>Stage Of File</button>
+          <button style={{width : 150, height : 30, backgroundColor : '#ff6348', borderColor : '#ff6348',  color : 'white', marginHorizontal : 20}}>Stage Of File</button>
           </div>
     <Funnel funnelId={'funnel-chart6'}/>
     </div>
     <div style={{width : '20%'}}>
     <div style={{alignSelf : 'center', width : '90%',display : 'flex', justifyContent : 'center'}}>
-          <button style={{width : 150, height : 30, backgroundColor : '#ff6348', borderColor : '#ff6348', marginTop : 20, color : 'white', marginHorizontal : 20}}>Legal & Technical</button>
+          <button style={{width : 150, height : 30, backgroundColor : '#ff6348', borderColor : '#ff6348',  color : 'white', marginHorizontal : 20}}>Legal & Technical</button>
           </div>
           <Funnel funnelId={'funnel-chart7'}/>
 </div>
