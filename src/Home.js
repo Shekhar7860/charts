@@ -19,7 +19,7 @@ const Home = () => {
 
         return <>
         <Segments/>
-         <div style={{flexDirection: 'row',
+         {/* <div style={{flexDirection: 'row',
  display : 'flex', justifyContent : 'center'}}>
            <div style={{width : '20%'}}>
           <div style={{alignSelf : 'center', width : '90%',display : 'flex', justifyContent : 'center'}}>
@@ -41,8 +41,8 @@ const Home = () => {
           </div>
           <Funnel funnelId={'funnel-chart4'}/>
 </div>
-</div>
-<div style={{flexDirection: 'row',
+</div> */}
+{/* <div style={{flexDirection: 'row',
  display : 'flex', justifyContent : 'center'}}>
            <div style={{width : '20%'}}>
           <div style={{alignSelf : 'center', width : '90%',display : 'flex', justifyContent : 'center'}}>
@@ -62,16 +62,16 @@ const Home = () => {
           </div>
           <Funnel funnelId={'funnel-chart7'}/>
 </div>
-</div>
+</div> */}
     <div style={{flexDirection: 'row',
- display : 'flex', justifyContent : 'center'}}>
-           <div style={{width : '38%'}}>
+ display : 'flex'}}>
+           <div style={{width : '30%'}}>
           <div style={{alignSelf : 'center', width : '90%',display : 'flex', justifyContent : 'center'}}>
           <button style={{width : 150, height : 30, backgroundColor : '#ff6348', borderColor : '#ff6348', marginTop : 20, color : 'white', marginHorizontal : 20}}>Login</button>
           </div>
      <BarGraph barId={'bar8'}/>
     </div>
-    <div style={{width : '25%'}}>
+    <div style={{width : '20%'}}>
     <div style={{alignSelf : 'center', width : '90%',display : 'flex', justifyContent : 'center'}}>
           <button style={{width : 150, height : 30, backgroundColor : '#ff6348', borderColor : '#ff6348', marginTop : 20, color : 'white', marginHorizontal : 20}}>Stage Of File</button>
           </div>
@@ -83,9 +83,36 @@ const Home = () => {
           </div>
     <StackedBar/>
 </div>
+<div>
+           <div style={{alignSelf : 'center', width : '100%',display : 'flex', justifyContent : 'center'}}>
+          <button style={{width : 150, height : 50, backgroundColor : '#10ac84',borderRadius : 7, borderColor : '#10ac84', marginTop : 20, color : 'white', marginHorizontal : 20}}>360 view</button>
+          </div>
+          <div style={{alignSelf : 'center', width : '100%',display : 'flex', justifyContent : 'center'}}>
+          <button style={{width : 150, height : 50, backgroundColor : '#10ac84',borderRadius : 7, borderColor : '#10ac84', marginTop : 20, color : 'white', marginHorizontal : 20}}>Trend</button>
+          </div>
+          <div style={{alignSelf : 'center', width : '100%',display : 'flex', justifyContent : 'center'}}>
+          <button style={{width : 150, height : 50, backgroundColor : '#10ac84',borderRadius : 7, borderColor : '#10ac84', marginTop : 20, color : 'white', marginHorizontal : 20}}>Industry/Profile</button>
+          </div>
+          <div style={{alignSelf : 'center', width : '100%',display : 'flex', justifyContent : 'center'}}>
+          <button style={{width : 150, height : 50, backgroundColor : '#10ac84',borderRadius : 7, borderColor : '#10ac84', marginTop : 20, color : 'white', marginHorizontal : 20}}>IMD report</button>
+          </div>
+          <div style={{alignSelf : 'center', width : '100%',display : 'flex', justifyContent : 'center'}}>
+          <button style={{width : 150, height : 50, backgroundColor : '#10ac84',borderRadius : 7, borderColor : '#10ac84', marginTop : 20, color : 'white', marginHorizontal : 20}}>HI/GI report</button>
+          </div>
+          <div style={{alignSelf : 'center', width : '100%',display : 'flex', justifyContent : 'center'}}>
+          <button style={{width : 150, height : 50, backgroundColor : '#10ac84',borderRadius : 7, borderColor : '#10ac84', marginTop : 20, color : 'white', marginHorizontal : 20}}>QR Code report</button>
+          </div>
+          <div style={{alignSelf : 'center', width : '100%',display : 'flex', justifyContent : 'center'}}>
+          <button style={{width : 150, height : 50, backgroundColor : '#10ac84',borderRadius : 7, borderColor : '#10ac84', marginTop : 20, color : 'white', marginHorizontal : 20}}>Info Center</button>
+          </div>
+          <div style={{alignSelf : 'center', width : '100%',display : 'flex', justifyContent : 'center'}}>
+          <button style={{width : 150, height : 50, backgroundColor : '#10ac84',borderRadius : 7, borderColor : '#10ac84', marginTop : 20, color : 'white', marginHorizontal : 20}}>Red/Yellow Flag</button>
+          </div>
 </div>
-<div style={{flexDirection: 'row', justifyContent : 'center', display : 'flex'}}>
-   <div style={{width : '38%'}}>
+</div>
+<div style={{position : 'absolute', width : '100%', top : 500}}>
+<div style={{flexDirection: 'row', display : 'flex', width : '80%'}}>
+   <div style={{width : '30%'}}>
    <div style={{alignSelf : 'center', width : '115%',display : 'flex', justifyContent : 'center'}}>
           <button style={{width : 150, height : 30, backgroundColor : '#ff6348', borderColor : '#ff6348', marginTop : 20, color : 'white', marginHorizontal : 20}}>Disbursement</button>
           </div>
@@ -119,6 +146,7 @@ const Home = () => {
     needleColor={'#000000'}
     needleHeightRatio={0.5}
     value={500}/>
+    </div>
     </div>
     </div>
     </div>
