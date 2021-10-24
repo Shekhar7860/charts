@@ -119,6 +119,15 @@
  #funnel-chart2_Series_0_Point_4{
    fill : #3498db
  }
+ .dxc-title {
+   display : none;
+ }
+ #pie{
+  position : absolute;
+  bottom : 30px;
+  width : 30%;
+  align-self : center;
+}
  #funnel-chart2_Series_0_Point_3{
    fill : #4834d4
  }

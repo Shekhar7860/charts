@@ -83,6 +83,7 @@ const Home = () => {
           </div>
     <StackedBar/>
 </div>
+<div style={{width : '4%'}}></div>
 <div>
            <div style={{alignSelf : 'center', width : '100%',display : 'flex', justifyContent : 'center'}}>
           <button style={{width : 150, height : 50, backgroundColor : '#10ac84',borderRadius : 7, borderColor : '#10ac84', marginTop : 20, color : 'white', marginHorizontal : 20}}>360 view</button>
@@ -112,7 +113,7 @@ const Home = () => {
 </div>
 <div style={{position : 'absolute', width : '100%', top : 500}}>
 <div style={{flexDirection: 'row', display : 'flex', width : '80%'}}>
-   <div style={{width : '30%'}}>
+   <div style={{width : '27%'}}>
    <div style={{alignSelf : 'center', width : '115%',display : 'flex', justifyContent : 'center'}}>
           <button style={{width : 150, height : 30, backgroundColor : '#ff6348', borderColor : '#ff6348', marginTop : 20, color : 'white', marginHorizontal : 20}}>Disbursement</button>
           </div>
@@ -127,13 +128,14 @@ const Home = () => {
     value={500}/>
       </div>
     </div>
-    <div style={{width : '30%'}}>
+    <div style={{width : '5%'}}></div>
+    <div style={{width : '40%'}}>
     <div style={{alignSelf : 'center', width : '90%',display : 'flex', justifyContent : 'center'}}>
           <button style={{width : 150, height : 30, backgroundColor : '#ff6348', borderColor : '#ff6348', marginTop : 20, color : 'white', marginHorizontal : 20}}>PortFolio Health</button>
           </div>
     <Pie />
     </div>
-    <div style={{width : '30%'}}>
+    <div style={{width : '25%'}}>
     <div style={{alignSelf : 'center', width : '90%',display : 'flex', justifyContent : 'center'}}>
           <button style={{width : 150, height : 30, backgroundColor : '#ff6348', borderColor : '#ff6348', marginTop : 20, color : 'white', marginHorizontal : 20}}>Fresh Bouncing</button>
           </div>
